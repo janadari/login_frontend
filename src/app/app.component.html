@@ -1,0 +1,12 @@
+<div class="bg">
+  <div class="container">
+     <p class="headtxt" align="center">atro</p>
+     <form class="form" [formGroup]="myForm">
+        <input class="un " type="text" align="center" placeholder="your username" formControlName="username"
+           autocomplete="off">
+        <input class="pass" type="password" align="center" placeholder="your password" formControlName="password"
+           autocomplete="off">
+        <a class="submit" align="center" (click)="signIn()">SIGN IN</a>
+     </form>
+  </div>
+</div>

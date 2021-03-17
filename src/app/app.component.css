@@ -1,0 +1,100 @@
+.container {
+	width: 500px;
+	height: 450px;
+	margin: 15% auto;
+	border-radius: 1.5em;
+	box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.headtxt {
+	padding-top: 55px;
+	color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: bold;
+	font-size: 90px;
+	margin-bottom: 10%;
+}
+
+.un {
+	width: 76%;
+	height: 60px;
+	color: white;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 1px;
+	background: rgb(63, 63, 63);
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	box-sizing: border-box;
+	border: 2px solid rgba(0, 0, 0, 0.02);
+	margin-bottom: 50px;
+	margin-left: 46px;
+	text-align: center;
+	margin-bottom: 27px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+form.signForm {
+	padding-top: 40px;
+}
+
+.pass {
+	width: 76%;
+	color: white;
+	font-weight: 700;
+	font-size: 14px;
+	height: 60px;
+	letter-spacing: 1px;
+	background: rgb(63, 63, 63);
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	box-sizing: border-box;
+	border: 2px solid rgba(0, 0, 0, 0.02);
+	margin-bottom: 50px;
+	margin-left: 46px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.un:focus,
+.pass:focus {
+	border: 2px solid rgba(0, 0, 0, 0.18) !important;
+}
+
+.submit {
+	cursor: pointer;
+	border-radius: 5em;
+	width: 76%;
+	color: #fff;
+	background: linear-gradient(to right, #9C27B0, #E040FB);
+	border: 0;
+	padding-left: 31%;
+	padding-right: 31%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	margin-left: 9%;
+	font-size: 18px;
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.btn {
+	color: green;
+}
+
+.span {
+	float: right;
+}
+
+.bg {
+	background-image: url('/assets/image.png');
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
